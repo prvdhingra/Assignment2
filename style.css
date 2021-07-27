@@ -1,0 +1,43 @@
+div{
+    border: solid 2px black;
+    position: fixed;
+    top: 0.5%;
+    margin-left: 7%;
+    font-size: x-large;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px 20px;
+    background-color: #ff4800;
+}
+span{
+    margin-left: 5%;
+    position: sticky;
+    top: 55px;
+    border: solid 2px black;
+    padding-left: 10px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px 25px;
+    background-color:#ff7900 ;
+}
+ol{
+
+    margin-left: 7%;
+    list-style-type: none;
+     background-color: #fcbf49 ;
+     width:150px;
+     padding-bottom: 10px;
+     border: solid black 1px;
+     border-radius: 25px 25px ;
+}
+li{
+    border-bottom: 1px solid black;
+    width: fit-content;
+    padding: 3px;
+}
+li::before{
+    content: "\✆  ";
+}
